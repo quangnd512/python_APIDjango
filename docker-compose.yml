@@ -4,10 +4,8 @@ services:
   app:
     build:
       context: .
-      #flake8
       args:
         - DEV=true
-      #flake8
     ports:
       - "8000:8000"
     volumes:
